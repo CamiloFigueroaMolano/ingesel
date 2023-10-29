@@ -79,11 +79,11 @@ body, ul, li, p, a, label, input, div {
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
-#templatemo_main_nav a { color: #212934;}
+#templatemo_main_nav a { color: #fff;}
 #templatemo_main_nav a:hover { color: #FECC08;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 .navbar {
-    background-color: #f8f8f8; /* Cambia el color de fondo según tus preferencias */
+    background-color: #1472D4; /* Cambia el color de fondo según tus preferencias */
     padding: 10px; /* Ajusta el espaciado según tus preferencias */
     display: flex;
     align-items: center; /* Centra verticalmente el contenido del navbar */
@@ -435,6 +435,11 @@ body, ul, li, p, a, label, input, div {
     margin: 0 auto 20px; /* Espacio entre las tarjetas y centrado horizontal */
     width: 80%; /* Reducir el ancho de las tarjetas */
   }
+
+  .logo{
+    max-width: 60%;
+  }
+
 }
 
 
@@ -442,6 +447,10 @@ body, ul, li, p, a, label, input, div {
 @media (max-width: 768px) {
   .col-lg-4 {
     width: 100%; /* Las tarjetas ocupan todo el ancho en pantallas pequeñas */
+  }
+
+  .logo{
+    max-width: 60%;
   }
 }
 
@@ -527,6 +536,10 @@ body, ul, li, p, a, label, input, div {
 
 @media (min-width: 576px) {
   .tempaltemo-carousel .h1 { font-size: 1em !important;}
+
+  .logo{
+    max-width: 50%;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
